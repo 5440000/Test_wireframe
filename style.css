@@ -1,0 +1,167 @@
+@font-face {
+  font-family: "Segoe UI Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/Segoe\ UI.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Segoe UI Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Segoe UI Italic"), url("Segoe UI Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Segoe UI Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url(./Segoe\ UI\ Bold.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Segoe UI Bold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: url(./Segoe\ UI\ Italic.woff) format("woff");
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  min-width: 360px;
+  font-size: 14px;
+  color: #000000;
+  max-width: 1200px;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #00000029;
+}
+
+header {
+  box-shadow: 0px 3px 6px #00000015;
+  width: 100%;
+  /* position: fixed;  
+  top: 0; */
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+
+.w-184 {
+  height: 84px;
+}
+
+.main-head__title {
+  text-align: center;
+  font: normal normal 300 40px/48px Segoe UI;
+  letter-spacing: 0px;
+  color: grey;
+  opacity: 1;
+}
+
+.black {
+  font-family: "Segoe UI Bold";
+  color: #000000;
+}
+
+.w-40 {
+  height: 40px;
+}
+
+.main-head__subtitle {
+  font-family: "Segoe UI Bold Italic";
+  /* UI Properties */
+  text-align: center;
+  font: normal normal 300 28px/34px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+/* //форма поиска */
+.search {
+  border: 2px solid rgb(0, 0, 0);
+  font-size: 20px;
+  padding: 0;
+}
+[type="search"] {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.fas.fa-search {
+  color: rgb(0, 0, 0);
+}
+
+.active-article a {
+  color: black;
+}
+
+.item__image,
+.item {
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+
+.item__wrapper {
+  padding-left: 0;
+}
+
+/* content */
+.content {
+}
+.row {
+}
+.item {
+}
+.col-3 {
+}
+.item__wrapper {
+}
+.item__image {
+}
+.col-9 {
+}
+.description {
+  padding: 16px;
+}
+.description__article-title {
+  text-align: left;
+  font: normal normal normal 20px/27px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 5px;
+}
+.description__text {
+  text-align: left;
+  font: normal normal 300 16px/21px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.6;
+  margin-bottom: 5px;
+}
+.description__writer-name {
+  text-align: left;
+  font: normal normal normal 16px/21px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 5px;
+}
+.description__company {
+  text-align: left;
+  font: normal normal 300 16px/21px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.6;
+  margin-bottom: 5px;
+}
